@@ -1,0 +1,397 @@
+body{
+	color:white;
+	background-image: url("images/Wide-Brick-Wallpaper-wc10019059.jpg");
+    background-repeat: no-repeat; 
+	background-size:cover;
+	font-family:Trebuchet MS, sans-serif;
+}
+
+p{
+	color:#ff9999;
+	font-size:30px;
+	background-color:660000;
+	box-shadow:3px 7px 25px 19px rgb(102, 0, 0);
+}
+
+header a{
+	text-decoration:none;
+	color: #330d00;
+	display:inline;
+}
+
+#mainvalue{
+	font-stretch: ultra-expanded;
+	background-color:rgba(255, 0, 0, 0.2);
+	overflow:hidden;
+	box-shadow: 3px 6px 18px 12px rgba(192,192,192,0.3);
+	max-width:1200px;
+	margin:auto;
+}
+
+header h1{
+    padding: 5px;
+    text-align: center;
+	margin-bottom:0;
+	color: white;
+	font-size: 85px;
+	text-decoration:none;
+	font-family:Blippo, fantasy;
+}
+
+header a:hover{
+	opacity: 0.4;
+}
+
+nav ul{
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #1a0000;
+	display:flex;
+	flex:space-around;
+}
+
+nav li{
+	padding:7px;
+	border:3px inset red;
+	border-radius:20px;
+	display:inline;
+	margin:5px;
+}
+
+nav li a, .fallthemenu{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav li a:hover, .fallmenu:hover .fallthemenu{
+    background: #bf4040; 
+	opacity:0.4;
+	border-radius:20px;
+	padding:7px;
+	margin:5px;
+}
+
+nav li.fallmenu{
+    display: inline-block;
+}
+
+.fallmenu-mainvalue{
+    display: none;
+    position: absolute;
+    background-color: #ffb3b3;
+    min-width: 160px;
+    box-shadow: #330000;
+    z-index: 1;
+}
+
+.fallmenu-mainvalue a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.fallmenu-mainvalue a:hover{
+	background-color: #f1f1f1;
+}
+
+.fallmenu:hover .fallmenu-mainvalue{
+    display: block;
+}
+
+@keyframes changephoto_animation{
+	0%    { left: 0%; }
+	50%   { left: -100%; }
+	100%  { left: -200%; }
+}
+
+#changephoto{
+    padding-top:10px;	
+	overflow: hidden; 
+	width:100%;
+	height: 600px;
+}
+
+#changephoto #changephoto_images img{
+	width: 20%; 
+	float: left;
+}
+
+#changephoto #changephoto_images{ 
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 15s changephoto_animation infinite; 
+}
+
+.columnforthemain{   
+	padding-left:20px;
+	margin-right: 10px;
+	text-align:center;
+}
+
+.columnforthemain h2{
+	text-align:center;
+	font-size: 45px;
+	font-family: Trattatello;
+	font-stretch: ultra-condensed;
+	color:	#1a0000;
+}
+
+
+.columnforthemain h2:hover{
+	color: #ff3333;
+	opacity: 0.5;
+}
+
+.columnforthetexts h3{
+	text-align:center;
+	font-style: italic;
+	font-size: 25px;
+	font-family: Luciada Handwriting;
+}
+
+.columnforthetexts ul{
+	text-align:center;
+    margin: 30px;	
+	padding:25px;
+}
+
+.columnforthetexts li{
+	padding: 15px 27px; 
+	display:inline;
+	margin:15px;
+}
+
+.columnforthetexts nav li a{
+    text-decoration: none;
+}
+
+.fb{
+	border-radius:15px;
+	background-size:cover;
+}
+
+#titlesgeneral{
+	letter-spacing:3px;
+	text-align:center;
+}
+
+#titlesgeneral h3{
+	text-align:center;
+}
+
+#titlesgeneral h3:hover{
+	color: green;
+}
+
+.imgopen1{
+   width: 250px;
+   height: 250px;
+   float:left;
+   margin-right: 10px;
+   margin-bottom: 5px;
+   border: 2px double #330000;
+   padding: 1px;
+   box-shadow: 5px 10px #1a0000;
+}
+
+.imgopen2{
+   width: 200px;
+   height: 200px;
+   float:right;
+   margin-right: 10px;
+   margin-left:10px;
+   margin-bottom: 5px;
+   border: 1px solid black;
+   padding: 1px;
+   box-shadow: 5px 10px black;
+}
+
+.gallery{
+	position: relative;
+    display: inline-block;
+	margin-right:10px;
+}
+
+.gallery_fallmenu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.gallery:hover .gallery_fallmenu{
+    display: block;
+}
+
+.listforprice{
+	margin: 0 15px 20px 15px;
+	padding:7px;
+	border: 5px double black;
+	background-color: white;
+	opacity:0.7;
+}
+
+.boxmenu h3{
+	color: black;
+	font-weight: 550;
+	font-size: 25px;
+}
+
+.boxmenu h3:hover{
+	color: red;
+}
+
+.seperateelements {
+	margin: 10px 15px;
+	text-align:center;
+}
+
+.seperateelements span{
+	color: black;
+	display: block;
+	float: right;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.seperateelements h4{
+	margin-bottom: 3px;
+	margin-top: 3px;
+	display: inline-block;
+	color: black;
+	font-weight: 550;
+}
+
+.seperateelements h4:hover{
+	color: red;
+	opacity: 0.6;
+}
+
+.seperateelements span:hover{
+	color: red;
+	opacity: 0.6;
+}
+
+.seperateelements {
+	border-bottom: 1px dotted black;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#myform{
+	padding: 15 px;
+}
+
+#myform input,
+#myform textarea{
+	width: 90%;
+	border: 1px solid silver;
+	background: white;
+	opacity:0.6;
+	margin-left: -10px;
+	font-size:16px;
+	padding: 19px;
+}
+
+#myform textarea{
+	height: 100px;
+	resize: none;
+}
+
+#myform button{
+	cursor: pointer;
+	width: 100%;
+	background: black;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: -10px;
+	margin-top: 20px;
+}
+
+#myform button:hover{
+	background: grey;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#myform button:active{
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#myform h4{
+	text-align:center;	
+	font-size:30px;
+}
+
+#myform select{
+	margin-top:10px;
+	padding: 15px;
+	width: 95%;
+	background: white;
+	opacity:0.8;
+}
+
+#myform input[type="radio"]{
+	width:25px;
+}
+
+#somesites h2{
+	text-align:center;
+}
+
+#somesites li a{
+	text-decoration:none;
+	color:white;
+}
+
+#somesites li a:hover{
+	color:black;
+	opacity:0,7;
+}
+
+footer{
+	font-family:Arial Narrow, sans-serif;
+	text-align:center;
+	font-style: italic;
+	color: white;
+	padding:25px;
+	background-color: #1a0000;
+	border:1px outset red;
+	font-size:20px;
+}
+
+footer a{
+	color:white;
+	text-decoration:none;
+}
+
+footer a:hover{
+	color:red;
+	opacity:0.5;
+}
+
+
